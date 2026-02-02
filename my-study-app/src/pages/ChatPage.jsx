@@ -1,7 +1,7 @@
-import ChatWindow from "../chatbot/ChatWindow";
-import InputBox from "../chatbot/InputBox";
-import { useChatContext } from "../context/ChatContext";
-import "../styles/app.css";
+import ChatWindow from "../components/chatbot/ChatWindow.jsx";
+import InputBox from "../components/chatbot/InputBox.jsx";
+import { useChatContext } from "../context/ChatContext"; 
+import "../index.css"; 
 
 export default function ChatPage() {
   const { messages, sendMessage, loading } = useChatContext();

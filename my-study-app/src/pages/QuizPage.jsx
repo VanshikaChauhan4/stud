@@ -1,4 +1,4 @@
-import "../styles/app.css";
+import "../index.css";
 
 export default function QuizPage() {
   return (

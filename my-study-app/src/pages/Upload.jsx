@@ -1,5 +1,4 @@
-import "../styles/app.css";
-
+import "../index.css";
 export default function Upload() {
   return (
     <div className="page center">

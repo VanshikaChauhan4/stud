@@ -1,15 +1,11 @@
-import ProgressChart from "../analytics/ProgressChart";
-import WeakTopics from "../analytics/WeakTopics";
-
+import ProgressChart from "../components/analytics/ProgressChart.jsx";
+import WeakTopics from "../components/analytics/WeakTopics.jsx";
 export default function Dashboard() {
-  // 🔹 Sample data (later this will come from context / backend)
   const attempts = [
     { topic: "DBMS", score: 40 },
     { topic: "OS", score: 75 },
     { topic: "CN", score: 30 },
   ];
-
-  // 🔹 Inline styles (no external CSS)
   const styles = {
     page: {
       padding: "40px",
