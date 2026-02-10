@@ -4,7 +4,6 @@ import Dashboard from "./pages/Dashboard";
 import QuizPage from "./pages/QuizPage";
 import ChatPage from "./pages/ChatPage";
 import Upload from "./pages/Upload";
-
 function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
@@ -18,5 +17,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
