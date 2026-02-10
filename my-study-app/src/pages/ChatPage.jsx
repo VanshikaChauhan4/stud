@@ -29,7 +29,7 @@ export default function ChatPage() {
         <p>
           In <code>package.json</code>, the <code>homepage</code> field should
           match your GitHub Pages URL exactly, for example
-          <code> https://vanshikachauhan4.github.io/stud/</code>.
+          <code> https://github.com/VanshikaChauhan4/stud.git.io/stud/</code>.
         </p>
         <p>
           In <code>vite.config.js</code>, set <code>base: &quot;/stud/&quot;</code>
